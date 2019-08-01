@@ -49,11 +49,11 @@ if(isset($_POST['action']))
                  //MAIL
 		 case 'send_mail':
 		 	$current_mail = json_decode($_POST["mail"]);
-		 	print $mail->sendMail($current_mail);
+		 	//print $mail->sendMail($current_mail);
 		 	break;
 	     
 		 case 'send_mail_attachment':                  
-		 	print $mail->sendAttachments();
+		 	//print $mail->sendAttachments();
 		 	break;    
 
                 
