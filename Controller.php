@@ -22,13 +22,13 @@ if($_SERVER['REQUEST_METHOD']=='OPTIONS')
 //controller wis
 function __autoload($className)
 {
-	include("models/util/$className.php");
-        include("models/objects/$className.php");
+	include("$className.php");
+        include("$className.php");
 
 }
 
 //mail
-$mail = new Mail();
+//$mail = new Mail();
 
 //Crud Execute
 $ce  = new CrudExec();
