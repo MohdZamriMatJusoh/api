@@ -1,6 +1,6 @@
 <?php 
 include_once 'inc/config.php';
-include_once 'models/util/Json.php';
+include_once 'util/Json.php';
 //connection
 class Connection
 {
