@@ -1,7 +1,4 @@
 <?php
-//include_once '../../inc/config_test.php';
-//include_once '../../inc/config.php';
-//include_once '../util/Connection.php';
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
