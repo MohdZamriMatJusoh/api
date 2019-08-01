@@ -23,8 +23,6 @@ if($_SERVER['REQUEST_METHOD']=='OPTIONS')
 function __autoload($className)
 {
 	include("$className.php");
-        include("$className.php");
-
 }
 
 //mail
